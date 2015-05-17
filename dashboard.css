@@ -1,0 +1,54 @@
+#webcam {
+    height: 1130px;
+    width: 380px;
+    float: left;
+    overflow: hidden;
+    margin-top: -310px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: -20px;
+    margin-top: -310px;
+}
+
+#webcam iframe {
+    height: 1200px;
+    width: 380px;
+}
+
+#ilm1 {
+    height: 370px;
+    width: 360px;
+    float: left;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#ilm1 iframe {
+    height: inherit;
+    width: 610px;
+    position: relative;
+    left: -250px;
+    top: -190px
+}
+
+#ilm2 {
+    height: 1215px;
+    width: 920px;
+    float: left;
+    overflow: hidden;
+    margin-top: -190px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#ilm2 iframe {
+    height: inherit;
+    width: inherit;
+    position: relative;
+    left: -200px;
+    top: -320px
+}
