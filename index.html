@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Custom Dashboard</title>
+<style type="text/css">
+#webcam {
+    height: 1130px;
+    width: 380px;
+    float: left;
+    overflow: hidden;
+    margin-top: -310px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: -20px;
+    margin-top: -310px;
+}
+
+#webcam iframe {
+    height: 1200px;
+    width: inherit;
+}
+
+#ilm1 {
+    height: 370px;
+    width: 360px;
+    float: left;
+    overflow: hidden;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#ilm1 iframe {
+    height: inherit;
+    width: 610px;
+    position: relative;
+    left: -250px;
+    top: -190px
+}
+
+#ilm2 {
+    height: 1215px;
+    width: 920px;
+    float: left;
+    overflow: hidden;
+    margin-top: -190px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#ilm2 iframe {
+    height: inherit;
+    width: inherit;
+    position: relative;
+    left: -200px;
+    top: -320px
+}
+</style>
+</head>
+<body>
+    <div id="webcam">
+        <iframe src="http://www.surf.ee/webcam"></iframe>
+    </div>
+    <div id="ilm1">
+        <iframe
+            src="http://www.ilmateenistus.ee/meri/vaatlusandmed/pirita/10-minuti-andmed/"
+            height="1200" width="700"></iframe>
+    </div>
+    <div id="ilm2">
+        <iframe
+            src="http://www.ilmateenistus.ee/meri/vaatlusandmed/pirita/10-minuti-andmed/"
+            height="1200" width="700"></iframe>
+    </div>
+</body>
+</html>
